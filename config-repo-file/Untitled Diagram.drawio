@@ -1,1 +1,54 @@
-<mxfile host="app.diagrams.net" modified="2021-08-11T02:17:36.283Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" version="14.9.6" etag="b4AJW5UCP6rsnGOEny-J" type="github"><diagram id="bz-8c_J4F2x66_YQZzmA">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-08-11T02:42:30.316Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="eJiQ2bOVN8yyNIQqrXKC" version="14.9.6" type="github">
+  <diagram id="bz-8c_J4F2x66_YQZzmA" name="Page-1">
+    <mxGraphModel dx="1028" dy="401" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fypJ_p2SqC0qCvKt88R8-1" value="&lt;font style=&quot;font-size: 18px&quot;&gt;状态 0&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="100" y="230" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fypJ_p2SqC0qCvKt88R8-2" value="&lt;span&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;状态 1&lt;/font&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="400" y="230" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fypJ_p2SqC0qCvKt88R8-3" value="&lt;span&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;状态 2&lt;/font&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="690" y="230" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fypJ_p2SqC0qCvKt88R8-4" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fypJ_p2SqC0qCvKt88R8-1" target="fypJ_p2SqC0qCvKt88R8-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="280" as="sourcePoint" />
+            <mxPoint x="300" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fypJ_p2SqC0qCvKt88R8-5" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="fypJ_p2SqC0qCvKt88R8-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="454" y="269.5" as="sourcePoint" />
+            <mxPoint x="598" y="269.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fypJ_p2SqC0qCvKt88R8-6" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;1、产品重置物模型&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2、产品删除模块, 删除数量&amp;gt;0&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3、产品删除属性&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;4、产品修改采集配置&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;5、产品批量导入修改采集配置&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="150" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fypJ_p2SqC0qCvKt88R8-7" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;1、产品已关联设备（不管设备状态），复制物模型，复制的属性，采集地址||上传地址不为空 changeStatus=2， else =1&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3、产品新增属性&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;4、产品修改属性&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;5、产品批量新增属性&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;div style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px ; text-align: left&quot;&gt;&lt;span&gt;3\产品已挂3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%221%E3%80%81%E4%BA%A7%E5%93%81%E9%87%8D%E7%BD%AE%E7%89%A9%E6%A8%A1%E5%9E%8B%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22500%22%20y%3D%22210%22%20width%3D%22150%22%20height%3D%2220%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;rgba(0, 0, 0, 0)&quot; face=&quot;monospace&quot;&gt;&lt;span style=&quot;font-size: 0px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 0px ; color: rgba(0 , 0 , 0 , 0) ; font-family: monospace&quot;&gt;2&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="145" width="270" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="fypJ_p2SqC0qCvKt88R8-9" value="" style="curved=1;endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="fypJ_p2SqC0qCvKt88R8-3" target="fypJ_p2SqC0qCvKt88R8-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="400" as="sourcePoint" />
+            <mxPoint x="290" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="380" />
+              <mxPoint x="400" y="390" />
+              <mxPoint x="230" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fypJ_p2SqC0qCvKt88R8-10" value="&lt;font style=&quot;font-size: 14px&quot;&gt;2、产品发布&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="350" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fypJ_p2SqC0qCvKt88R8-11" value="&lt;font style=&quot;font-size: 14px&quot;&gt;1、创建产品&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="190" width="90" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
